@@ -2,6 +2,8 @@ package com.projects.order.order;
 
 import com.projects.order.customer.CustomerClient;
 import com.projects.order.exception.BusinessException;
+import com.projects.order.kafka.OrderConfirmation;
+import com.projects.order.kafka.OrderProducer;
 import com.projects.order.orderline.OrderLineRequest;
 import com.projects.order.orderline.OrderLineService;
 import com.projects.order.payment.PaymentClient;
